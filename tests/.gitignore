@@ -1,0 +1,71 @@
+# ==================== PYTHON ====================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ==================== ENTORNOS VIRTUALES ====================
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# ==================== IDE / EDITORES ====================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ==================== ARCHIVOS GENERADOS POR FRACTALSHIELD ====================
+# Archivos cifrados de prueba (nunca commitear)
+*.fs
+*.dec
+*.fs.bak
+*.dec.bak
+
+# Reportes y vectores generados por benchmarks
+tests/vectors.json
+tests/*.json
+*.log
+
+# ==================== TEMPORALES / CACHE ====================
+*.tmp
+*.temp
+.cache/
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.mypy_cache/
+
+# ==================== DOCUMENTACIÓN / BUILD ====================
+docs/_build/
+*.pdf.bak
+
+# ==================== SENSIBLES (seguridad extra) ====================
+# Nunca commitear contraseñas o keys de prueba
+*.key
+*.pem
+passwords.txt
+secrets.json
